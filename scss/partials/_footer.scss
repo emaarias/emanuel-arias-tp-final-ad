@@ -1,35 +1,3 @@
-footer{ 
-  font-size: 1rem; 
-  font-style: italic;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  height: max-content;
-  }
-
-  #contactoContFooter{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  }
-  
-  #socialFooter{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  }
-  
-
-
-  
-  span{
-  display: flex;
-  align-items: center;
-  margin-right:1rem ;
-  }
-
-
-  /*Footer BEM*/
-
 
 .pie{
     font-size: 1rem; 

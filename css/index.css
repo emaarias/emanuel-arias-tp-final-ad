@@ -226,29 +226,6 @@ nav li:hover {
 .menu--barras:hover {
   border: solid 1px transparent; }
 
-footer {
-  font-size: 1rem;
-  font-style: italic;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  height: max-content; }
-
-#contactoContFooter {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-
-#socialFooter {
-  display: flex;
-  justify-content: space-around;
-  align-items: center; }
-
-span {
-  display: flex;
-  align-items: center;
-  margin-right: 1rem; }
-
-/*Footer BEM*/
 .pie {
   font-size: 1rem;
   font-style: italic;
@@ -522,24 +499,6 @@ form {
     font-size: 1.5rem;
     margin-top: 0.3rem; } }
 
-.cincoSection {
-  display: inline-block;
-  width: 100%;
-  height: 702px;
-  overflow: hidden; }
-
-.servMouseOver {
-  position: relative;
-  bottom: 65px;
-  left: 0px;
-  background-color: rgba(0, 0, 2, 0.61);
-  height: 100%; }
-
-.cincoSection p {
-  margin-top: 1rem;
-  text-align: justify;
-  padding-bottom: 0.5rem; }
-
 .mainServicios {
   width: 100vw;
   height: 720px;
@@ -549,16 +508,47 @@ form {
   width: 80%;
   margin: 0 auto;
   height: 70vh;
-  padding-bottom: 3rem; }
-
-main.mainServicios h2 {
-  font-size: 2rem; }
-
-.mainServicios {
+  padding-bottom: 3rem;
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
   animation-duration: 1.5s;
   animation-fill-mode: both; }
+  .mainServicios h2 {
+    font-size: 2rem; }
+
+.cincoSection {
+  display: inline-block;
+  width: 100%;
+  height: 702px;
+  overflow: hidden; }
+  .cincoSection p {
+    margin-top: 1rem;
+    text-align: justify;
+    padding-bottom: 0.5rem; }
+
+.servMouseOver {
+  position: relative;
+  bottom: 65px;
+  left: 0px;
+  background-color: rgba(0, 0, 2, 0.61);
+  height: 100%;
+  opacity: 1;
+  padding: 1rem;
+  -webkit-transition: transform 0.4s cubic-bezier(0.44, 0.51, 0.24, 0.99);
+  transition: transform 0.4s cubic-bezier(0.44, 0.51, 0.24, 0.99); }
+
+#servUno:hover .servMouseOver, #servDos:hover .servMouseOver, #servTres:hover .servMouseOver, #servCuatro:hover .servMouseOver, #servCinco:hover .servMouseOver {
+  opacity: 1;
+  -webkit-transform: translateY(-190px) scale(1);
+  transform: translateY(-190px) scale(1); }
+
+#servUno hr, #servDos hr, #servTres hr, #servCuatro hr, #servCinco hr {
+  width: 0%;
+  border: 1px solid red;
+  transition: width 0.5s; }
+
+#servUno:hover hr, #servDos:hover hr, #servTres:hover hr, #servCuatro:hover hr, #servCinco:hover hr {
+  width: 100%; }
 
 @-webkit-keyframes ingresoSuperior {
   from {
@@ -582,60 +572,8 @@ main.mainServicios h2 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
 
-/*---------------  ANIM SERVICIOS  ---------------------*/
-.servMouseOver {
-  opacity: 1;
-  padding: 1rem;
-  -webkit-transition: transform 0.4s cubic-bezier(0.44, 0.51, 0.24, 0.99);
-  transition: transform 0.4s cubic-bezier(0.44, 0.51, 0.24, 0.99); }
-
-#servUno:hover .servMouseOver {
-  opacity: 1;
-  -webkit-transform: translateY(-190px) scale(1);
-  transform: translateY(-190px) scale(1); }
-
-#servDos:hover .servMouseOver {
-  opacity: 1;
-  -webkit-transform: translateY(-190px) scale(1);
-  transform: translateY(-190px) scale(1); }
-
-#servTres:hover .servMouseOver {
-  opacity: 1;
-  -webkit-transform: translateY(-190px) scale(1);
-  transform: translateY(-190px) scale(1); }
-
-#servCuatro:hover .servMouseOver {
-  opacity: 1;
-  -webkit-transform: translateY(-190px) scale(1);
-  transform: translateY(-190px) scale(1); }
-
-#servCinco:hover .servMouseOver {
-  opacity: 1;
-  -webkit-transform: translateY(-190px) scale(1);
-  transform: translateY(-190px) scale(1); }
-
-hr {
-  width: 0%;
-  border: 1px solid red;
-  transition: width 0.5s; }
-
-#servUno:hover hr {
-  width: 100%; }
-
-#servDos:hover hr {
-  width: 100%; }
-
-#servTres:hover hr {
-  width: 100%; }
-
-#servCuatro:hover hr {
-  width: 100%; }
-
-#servCinco:hover hr {
-  width: 100%; }
-
 @media only screen and (max-width: 1500px) {
-  main.mainServicios h2 {
+  .mainServicios h2 {
     font-size: 1.5rem; } }
 
 .main-trabajos {
