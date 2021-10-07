@@ -256,9 +256,6 @@ main{
 color:#ff0101 !important;
 }
 
-
-
-
 section p{
 text-align: justify;
 }
@@ -485,21 +482,6 @@ hr{
 }
 
 
-/* @keyframes animacionHr {
-  from{
-    width: 0%;
-    opacity: 0;
-  }  
-  50%{
-    width: 25%;
-    opacity: 1;
-  }
-  to{
-    width: 90%;
-    opacity: 1;
-  }
-}
- */
 
 
 /*---------------  TRABAJOS  ---------------------*/
@@ -591,8 +573,7 @@ hr{
   .pie__icon{
     width:25px;
   }
-
-  .mainTrabajos,.mainServicios,.mainContacto{
+.mainServicios,.mainContacto{
     -webkit-animation-name: ingresoSuperior;
     animation-name: ingresoSuperior;
     animation-duration: 1.5s;
@@ -601,13 +582,7 @@ hr{
 
 
 
-
 /*---------------  NOSOTROS Metodología BEM - Sass Aplicado ahora en _nosotros.scss  ---------------------*/
-
-
-
-
-
 
 
 
@@ -617,23 +592,6 @@ hr{
 .bordeBlancoImg{
   box-shadow: 5px 4px 0px #fff;
   }
-
-/*
-.mainContacto{
-  width: 100vw;
-  height: 720px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 1rem;
-  width: 80%;
-  margin: 0 auto;
-  min-height:1200px;
-  padding-bottom: 3rem;
-
-}
-*/
-
 
 .mainContacto{
 height: auto;
@@ -646,20 +604,6 @@ padding-bottom: 0px;
   flex-direction: column;
   display: flex;
 }
-/*
-
-Sin Bootstrap
-
-#contactoDos{
-  width: 100%;
-  grid-column: 1 / 5 ;
-  flex-direction: row;
-  display: flex;
-  gap: 2rem;
-}
-
-*/
-
 
 #contactoDos{
  
@@ -679,19 +623,6 @@ padding: 1rem 2rem;
 
 }
 
-/*
-
-#contacto{
-width: 40%;
-}
-
-#contContacto{
-  padding: 30px;
-  background-color:rgba(0, 0, 2, 0.61);
-width: 60%;
-}
-
-*/
 
 form{
   font-size: 0.8rem;
