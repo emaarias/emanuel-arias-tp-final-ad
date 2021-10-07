@@ -1,0 +1,49 @@
+.menu{
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 150px;
+    max-height: 200px;
+    width:80%;
+    margin: 0 auto;
+    }
+    .menu__logo{
+    padding: 2rem 0;
+    width: 30%;
+    }
+    .menu__img{
+    height:50px;
+    }
+    .menu__navegador{
+    font-size: 1rem;
+    margin-top: 5px;
+    cursor: pointer;
+    }
+    .menu__secciones{
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    }
+    .menu__items{
+    position: relative;
+    padding:10px 0px;
+    border:solid 1px transparent;
+    color: #ffffff;
+    }
+    nav li:hover{
+    border:solid 1px #ffffff;
+    }
+    .menu--activo{
+      border:solid 1px #ff0000;
+    }
+    .menu__link{
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 10px 7px;
+    }
+    .menu--barras:hover{
+    border:solid 1px transparent;
+    }
+  

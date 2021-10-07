@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;   
+    
+    }
+    
+    html{
+    box-sizing: border-box;
+    }
+    
+    body{
+    
+    font-size: 62.5%;
+     /* background-color:#000000;*/ 
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(180deg, rgba(2,0,36,1) 30%, rgba(255,0,0,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(2,0,36,1) 30%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 30%, rgba(255,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ff0000",GradientType=1);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style:normal;
+    /*margin:3rem 5rem 3rem 5rem;*/
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    
+    height: 100%;
+    
+    
+    }
+    
+    header{
+    /*background-color: #921717;*/
+    color: #ffffff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 150px;
+    max-height: 200px;
+    }
+    #logo{
+    padding: 2rem 0;
+    width: 30%;
+    }
+    #logo img{
+    height:50px;
+    }
+    nav{
+    font-size: 1rem;
+    margin-top: 5px;
+    cursor: pointer;
+    
+    }
+    nav ul{
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    }
+    li{
+    color: #ffffff;
+    }
+    nav li{
+    position: relative;
+    padding:10px 0px;
+    border:solid 1px transparent;
+    }
+    nav li:hover{
+    border:solid 1px #ffffff;
+    }
+    .navActivo{
+      border:solid 1px #ff0000;
+    }
+    a{
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 10px 7px;
+    }
+    .barritasNav:hover{
+    border:solid 1px transparent;
+    }
+    
+    
+    
+    /*---------------  FOOTER  ---------------------*/
+    /*
+    
+    footer{
+    
+    font-size: 1rem; 
+    font-style: italic;
+    padding-top: 2rem;
+    height: 5rem;
+    
+    }
+    
+    */
+    
+    
+    
+    
+    #headAcord{
+    position: relative;
+        top: 14px;
+        left: 19px;
+    z-index: 2000000;
+    color: red !important;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-style:normal;
+    text-decoration: underline;
+    }
+    
+    .colorAcord{
+      color: #000 !important;
+      font-family: 'Roboto', sans-serif;
+    font-weight: 500 !important;
+    font-style:normal !important;
+    }
+    
+    #accordionExample{
+    margin-bottom: 3rem;
+    }
+    
+    h6{
+      color: #000 !important;
+      font-family: 'Roboto', sans-serif;
+    font-weight: 300 !important;
+    font-style:italic !important;
+    }
+    
+    
+    h1,h2,h3,h4{
+    color: #ffffff;
+    }
+    
+    h1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-style:italic;
+    }
+    
+    h2{
+    font-size: 2.5rem;
+    }
+    
+    h3{
+    font-size: 2rem;
+    }
+    
+    h4{
+    font-size: 1.5rem;
+    }
+    
+    p{
+    color: #ffffff;
+    font-size: 1rem;
+    font-style:italic;
+    }
+    
+    main section p{
+      margin-top: 1rem;
+    }
+
+    button{
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    padding: 0.5rem 8rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-style:italic;
+    cursor: pointer;
+    transition: all 0.5s;
+    }
+    
+    button:hover{
+      background-color: #000;
+      color: #fff;
+      transition: all 0.5s;
+    }
+    
+    button:hover a{
+      color: #fff !important;
+      transition: all 0.5s;
+    }
+    
+    
+    
+    
+    
+    .main404{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      justify-content: center;
+    
+    }
+
+
+    @media only screen and (max-width: 1500px){
+
+        body{
+          display: grid;
+          height:max-content ;
+          }
+      
+      }
+      
+      
+      @media only screen and (max-width: 1300px){
+      
+        body{
+          /*margin:3rem 5rem 3rem 5rem;*/
+          display: grid;
+          }     
+      
+      }
+      

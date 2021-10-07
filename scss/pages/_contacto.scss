@@ -1,0 +1,55 @@
+
+
+.bordeBlancoImg{
+    box-shadow: 5px 4px 0px #fff;
+    }
+  
+  .mainContacto{
+  height: auto;
+  padding-bottom: 0px;
+  }
+
+  .mainContacto{
+    -webkit-animation-name: ingresoSuperior;
+    animation-name: ingresoSuperior;
+    animation-duration: 1.5s;
+    animation-fill-mode: both ;
+  }
+
+  .mainContacto{
+    -webkit-animation-name: ingresoSuperior;
+    animation-name: ingresoSuperior;
+    animation-duration: 1.5s;
+    animation-fill-mode: both ;
+  }
+
+  
+  #contactoUno{
+    width: 100%;
+    grid-column: 1 / 5;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  #contactoDos{
+   
+    width:100%;
+    grid-column: 1 / 5 ;
+    
+  }
+  
+  .mapaContacto{
+  box-shadow: 5px 4px 0px #fff;
+  }
+  
+  
+  #contContacto{
+  padding: 1rem 2rem;
+    background-color:rgba(0, 0, 2, 0.61);
+  
+  }
+  
+  
+  form{
+    font-size: 0.8rem;
+  }

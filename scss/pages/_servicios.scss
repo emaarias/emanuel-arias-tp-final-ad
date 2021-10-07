@@ -1,0 +1,150 @@
+
+.cincoSection{
+    display: inline-block;
+    width: 100%;
+    height: 702px;
+    overflow: hidden;
+    }
+    
+    .servMouseOver{
+    position: relative;
+    bottom:65px;
+    left:0px;
+    background-color: rgba(0, 0, 2, 0.61);
+    height: 100%;
+    }
+    
+    .cincoSection p{
+    margin-top: 1rem;
+    text-align: justify;
+    padding-bottom: 0.5rem;
+    }
+    
+    .mainServicios{
+    width: 100vw;
+    height: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0;
+    width: 80%;
+    margin: 0 auto;
+    height: 70vh;
+    padding-bottom: 3rem;
+    }
+    
+    main.mainServicios h2{
+      font-size: 2rem;
+    }
+
+    .mainServicios{
+        -webkit-animation-name: ingresoSuperior;
+        animation-name: ingresoSuperior;
+        animation-duration: 1.5s;
+        animation-fill-mode: both ;
+      }
+    
+    
+    @-webkit-keyframes ingresoSuperior {
+      from {
+        -webkit-transform: translate3d(0,-50px, 0);
+        opacity: 0;
+        transform: translate3d(0,-50px, 0);
+        visibility: visible;
+      }
+      
+      to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+      }
+      
+      @keyframes ingresoSuperior {
+      from {
+        opacity: 0;
+        -webkit-transform: translate3d(0,-50px, 0);
+        transform: translate3d(0,-50px, 0);
+        visibility: visible;
+      }
+      
+      to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+      }
+    
+    /*---------------  ANIM SERVICIOS  ---------------------*/
+    
+    .servMouseOver{
+      opacity: 1;
+      padding: 1rem;
+    -webkit-transition: transform .4s cubic-bezier(.44, .51, .24, .99);
+      transition: transform .4s cubic-bezier(.44, .51, .24, .99);
+     }
+    
+    #servUno:hover .servMouseOver{
+      opacity: 1;
+    -webkit-transform: translateY(-190px) scale(1);
+      transform: translateY(-190px) scale(1);
+     }
+    
+     #servDos:hover .servMouseOver{
+      opacity: 1;
+      -webkit-transform: translateY(-190px) scale(1);
+      transform: translateY(-190px) scale(1);
+     }
+    
+     #servTres:hover .servMouseOver{
+      opacity: 1;
+      -webkit-transform: translateY(-190px) scale(1);
+      transform: translateY(-190px) scale(1);
+     }
+    
+     #servCuatro:hover .servMouseOver{
+      opacity: 1;
+      -webkit-transform: translateY(-190px) scale(1);
+      transform: translateY(-190px) scale(1);
+     }
+    
+     #servCinco:hover .servMouseOver{
+      opacity: 1;
+      -webkit-transform: translateY(-190px) scale(1);
+      transform: translateY(-190px) scale(1);
+     }
+    
+    
+    hr{
+      width: 0%;
+      border: 1px solid red;
+      transition: width 0.5s;
+    }
+    
+    #servUno:hover  hr{
+      width: 100%;
+    }
+    
+    #servDos:hover  hr{
+      width: 100%;
+    }
+    #servTres:hover  hr{
+      width: 100%;
+    }
+    
+    #servCuatro:hover  hr{
+      width: 100%;
+    }
+    
+    #servCinco:hover  hr{
+      width: 100%;
+    }
+
+
+
+    @media only screen and (max-width: 1500px){
+        main.mainServicios h2{
+            font-size: 1.5rem;
+          }    
+    }
+
+  
