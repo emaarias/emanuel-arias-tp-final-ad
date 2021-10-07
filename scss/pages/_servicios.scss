@@ -41,8 +41,6 @@
   transition: transform .4s cubic-bezier(.44, .51, .24, .99);
  }
 
-
-    
 #servUno,#servDos,#servTres,#servCuatro,#servCinco{
   &:hover{
     .servMouseOver{
@@ -58,12 +56,7 @@
   }
 }
 
-
-    
-    
-   
-    
-    #servUno,#servDos,#servTres,#servCuatro,#servCinco{
+ #servUno,#servDos,#servTres,#servCuatro,#servCinco{
       &:hover{
         hr{
           width: 100%
@@ -79,7 +72,7 @@
         transform: translate3d(0,-50px, 0);
         visibility: visible;
       }
-      
+
       to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -94,7 +87,7 @@
         transform: translate3d(0,-50px, 0);
         visibility: visible;
       }
-      
+
       to {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -109,5 +102,3 @@
           }    
         }
     }
-
-  

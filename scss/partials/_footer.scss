@@ -1,4 +1,3 @@
-
 .pie{
     font-size: 1rem; 
     font-style: italic;
@@ -7,51 +6,42 @@
     height: max-content;
     width: 80%;
     margin: 0 auto;
-    }
-  
-  .pie__contenedor{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    }
-  
-  .pie__social{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    }
-  
-    .pie__secciones{
+    &__contenedor{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      }
+    
+    &__social{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      }
+    
+    &__secciones{
     display: flex;
     align-items: center;
     margin-right:1rem ;
     }
-  
-    .pie__icon{
+    
+    &__icon{
       width:25px;
     }
 
-    @media only screen and (max-width: 1300px){
+  }
+  
 
-      
-          #contactoContFooter{
-           flex-direction:column-reverse;
-          }
-      
-          #contactoFooter{
-            font-size: 0.8rem;
-          }
-      
-          .pie__contenedor{
-            flex-direction:column-reverse;
-           }
-       
-           .pie__contacto{
-             font-size: 0.8rem;
-           }
-      
-      
+ @media only screen and (max-width: 1300px){
+
+
+      .pie{
+        &__contenedor{
+          flex-direction:column-reverse;
+        }
+        &__contacto{
+          font-size: 0.8rem;
+        }
       }
-  
-  
-  
+
+
+}

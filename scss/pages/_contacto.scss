@@ -1,55 +1,63 @@
-
+.mainContacto{
+height: auto;
+padding-bottom: 0px;
+-webkit-animation-name: ingresoSuperior;
+animation-name: ingresoSuperior;
+animation-duration: 1.5s;
+animation-fill-mode: both ;
+}
 
 .bordeBlancoImg{
+box-shadow: 5px 4px 0px #fff;
+}
+
+form{
+  font-size: 0.8rem;
+}
+
+#contactoUno{
+width: 100%;
+grid-column: 1 / 5;
+flex-direction: column;
+display: flex;
+  .mapaContacto{
     box-shadow: 5px 4px 0px #fff;
-    }
+  }
+}
   
-  .mainContacto{
-  height: auto;
-  padding-bottom: 0px;
-  }
-
-  .mainContacto{
-    -webkit-animation-name: ingresoSuperior;
-    animation-name: ingresoSuperior;
-    animation-duration: 1.5s;
-    animation-fill-mode: both ;
-  }
-
-  .mainContacto{
-    -webkit-animation-name: ingresoSuperior;
-    animation-name: ingresoSuperior;
-    animation-duration: 1.5s;
-    animation-fill-mode: both ;
-  }
-
-  
-  #contactoUno{
-    width: 100%;
-    grid-column: 1 / 5;
-    flex-direction: column;
-    display: flex;
-  }
-  
-  #contactoDos{
+#contactoDos{
    
     width:100%;
     grid-column: 1 / 5 ;
     
   }
+
+#contContacto{
+padding: 1rem 2rem;
+background-color:rgba(0, 0, 2, 0.61);
   
-  .mapaContacto{
-  box-shadow: 5px 4px 0px #fff;
-  }
-  
-  
-  #contContacto{
-  padding: 1rem 2rem;
-    background-color:rgba(0, 0, 2, 0.61);
-  
-  }
-  
-  
-  form{
-    font-size: 0.8rem;
-  }
+}
+
+#headAcord{
+position: relative;
+top: 14px;
+left: 19px;
+z-index: 2000000;
+color: red !important;
+font-size: 15px;
+font-family: 'Roboto', sans-serif;
+font-weight: 800;
+font-style:normal;
+text-decoration: underline;
+}
+    
+.colorAcord{
+color: #000 !important;
+font-family: 'Roboto', sans-serif;
+font-weight: 500 !important;
+font-style:normal !important;
+}
+    
+#accordionExample{
+margin-bottom: 3rem;
+}

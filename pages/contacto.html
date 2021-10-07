@@ -16,31 +16,24 @@
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body style="min-height: 937px;"><!-- Comienzo del Body o Contenedor Global -->
-    <header class="container"><!-- Comienzo del Header -->
-        <div id="logo">
-            <img src="../images/logoAD.png" alt="Logo AgroDiseño">
+    <header class="menu container"><!-- Comienzo del Header --> 
+        <div id="logo" class="menu__logo">
+            <img src="../images/logoAD.png" alt="Logo AgroDiseño" class="menu__img">
         </div>
-        <nav>
-            <ul>
-                 <li><a href="../index.html">INICIO</a></li>
-                 <li class="barritasNav">|</li>
-                 <li><a href="servicios.html">SERVICIOS</a></li>
-                 <li class="barritasNav">|</li>
-                 <li><a href="trabajos.html">TRABAJOS</a>
-                 <li class="barritasNav">|</li>
-                 <li><a href="nosotros.html">NOSOTROS</a></li>
-                 <li class="barritasNav">|</li>
-                 <li><a href="contacto.html" class="navActivo" >CONTACTO</a></li>
+        <nav class="menu__navegador">
+            <ul class="menu__secciones">
+                 <li class="menu__items"><a href="../index.html" class="menu__link">INICIO</a></li>
+                 <li class="menu__items menu--barras">|</li>
+                 <li class="menu__items"><a href="servicios.html" class="menu__link">SERVICIOS</a></li>
+                 <li class="menu__items menu--barras">|</li>
+                 <li class="menu__items"><a href="trabajos.html" class="menu__link">TRABAJOS</a></li>
+                 <li class="menu__items menu--barras">|</li>
+                 <li class="menu__items"><a href="nosotros.html" class="menu__link">NOSOTROS</a></li>
+                 <li class="menu__items menu--barras">|</li>
+                 <li class="menu__items"><a href="contacto.html" class="menu__link menu--activo">CONTACTO</a></li>
             </ul>
          </nav>
     </header><!-- Fin del Header -->
-
-
-
-
-
-
-
     <main class="container mainContacto"> <!-- Comienzo del Main o Contenedor Principal -->
         <section id="contactoUno">
 
@@ -91,10 +84,6 @@
                     </div>
 
                   </div>
-
-
-
-
             </div>
             <div id="contContacto" class="col-md-7">
                 <div class="mb-3">
