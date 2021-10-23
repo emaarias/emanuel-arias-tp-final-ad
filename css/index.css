@@ -75,14 +75,6 @@ button {
       color: #fff !important;
       transition: all 0.5s; }
 
-.main404 {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  justify-content: center; }
-
 @media only screen and (max-width: 1500px) {
   body {
     display: grid;
@@ -554,3 +546,25 @@ form {
     grid-column: 1 / 4;
     flex-direction: column;
     display: flex; } }
+
+.main-404 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  color: #ffffff; }
+  .main-404__titulo {
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: italic; }
+  .main-404__mensaje-linea1 {
+    font-size: 2rem; }
+  .main-404__mensaje-linea2 {
+    font-size: 1.5rem; }
+  .main-404__boton {
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300 !important;
+    font-style: italic !important; }
