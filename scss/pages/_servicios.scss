@@ -1,12 +1,10 @@
-.mainServicios{
-  width: 100vw;
-  height: 720px;
+.main-Servicios{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 0;
   width: 80%;
   margin: 0 auto;
-  height: 70vh;
+  height: auto;
   padding-bottom: 3rem;
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
@@ -45,8 +43,8 @@
   &:hover{
     .servMouseOver{
       opacity: 1;
-      -webkit-transform: translateY(-190px) scale(1);
-      transform: translateY(-190px) scale(1);
+      -webkit-transform: translateY(-250px) scale(1);
+      transform: translateY(-250px) scale(1);
     }
   }
   hr{
@@ -95,10 +93,49 @@
       }
       }
 
-    @media only screen and (max-width: 1500px){
-        .mainServicios{
+    @media only screen and (max-width: 1700px){
+        .main-Servicios{
          h2{
             font-size: 1.5rem;
           }    
         }
     }
+
+    @media only screen and (max-width: 1500px){
+      #servUno,#servDos,#servTres,#servCuatro,#servCinco{
+        &:hover{
+          .servMouseOver{
+            opacity: 1;
+            -webkit-transform: translateY(-310px) scale(1);
+            transform: translateY(-310px) scale(1);
+          }
+        }
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1300px){
+
+
+  .main-Servicios{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #servUno,#servDos,#servTres,#servCuatro,#servCinco{
+    &:hover{
+      .servMouseOver{
+        opacity: 1;
+        -webkit-transform: translateY(-200px) scale(1);
+        transform: translateY(-200px) scale(1);
+      }
+    }
+}
+
+
+}

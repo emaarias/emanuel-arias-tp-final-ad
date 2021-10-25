@@ -398,21 +398,19 @@ form {
     font-size: 1.5rem;
     margin-top: 0.3rem; } }
 
-.mainServicios {
-  width: 100vw;
-  height: 720px;
+.main-Servicios {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 0;
   width: 80%;
   margin: 0 auto;
-  height: 70vh;
+  height: auto;
   padding-bottom: 3rem;
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
   animation-duration: 1.5s;
   animation-fill-mode: both; }
-  .mainServicios h2 {
+  .main-Servicios h2 {
     font-size: 2rem; }
 
 .cincoSection {
@@ -438,8 +436,8 @@ form {
 
 #servUno:hover .servMouseOver, #servDos:hover .servMouseOver, #servTres:hover .servMouseOver, #servCuatro:hover .servMouseOver, #servCinco:hover .servMouseOver {
   opacity: 1;
-  -webkit-transform: translateY(-190px) scale(1);
-  transform: translateY(-190px) scale(1); }
+  -webkit-transform: translateY(-250px) scale(1);
+  transform: translateY(-250px) scale(1); }
 
 #servUno hr, #servDos hr, #servTres hr, #servCuatro hr, #servCinco hr {
   width: 0%;
@@ -471,9 +469,25 @@ form {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
 
-@media only screen and (max-width: 1500px) {
-  .mainServicios h2 {
+@media only screen and (max-width: 1700px) {
+  .main-Servicios h2 {
     font-size: 1.5rem; } }
+
+@media only screen and (max-width: 1500px) {
+  #servUno:hover .servMouseOver, #servDos:hover .servMouseOver, #servTres:hover .servMouseOver, #servCuatro:hover .servMouseOver, #servCinco:hover .servMouseOver {
+    opacity: 1;
+    -webkit-transform: translateY(-310px) scale(1);
+    transform: translateY(-310px) scale(1); } }
+
+@media only screen and (max-width: 1300px) {
+  .main-Servicios {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr; }
+  #servUno:hover .servMouseOver, #servDos:hover .servMouseOver, #servTres:hover .servMouseOver, #servCuatro:hover .servMouseOver, #servCinco:hover .servMouseOver {
+    opacity: 1;
+    -webkit-transform: translateY(-200px) scale(1);
+    transform: translateY(-200px) scale(1); } }
 
 .main-trabajos {
   width: 100vw;
