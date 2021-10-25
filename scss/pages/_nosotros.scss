@@ -5,15 +5,13 @@
 }
 
 .main-nosotros{
-    width: 100vw;
-    height: 720px;
+    width: 80%;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 1rem;
-    width: 80%;
+    grid-template-rows: 1fr;
+    gap: 1rem;    
     margin: 0 auto;
-    height: 70vh;
     padding-bottom: 3rem;
     -webkit-animation-name: ingresoSuperior;
     animation-name: ingresoSuperior;
@@ -40,7 +38,7 @@
     flex-direction: column;
     display: flex;
     &__contenedor{
-        flex-direction: row;
+      flex-direction: row;
       display: flex;
       text-align: center;
     }
@@ -66,17 +64,27 @@
         font-style: italic;
         margin-top: 0.3rem;
     }
+    &__titulo{
+        
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    &__subtitulo{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
 }
 
 @media only screen and (max-width: 1500px){
     .fichas{
         &__titulo{
+        
             font-size: 1.5rem;
-            margin-top: 0.3rem;
+            margin-top: 1rem;
         }
         &__subtitulo{
             font-size: 1.2rem;
-            margin-top: 0.3rem;
+            margin-top: 1rem;
         }
     }
 }

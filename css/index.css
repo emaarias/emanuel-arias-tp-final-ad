@@ -319,15 +319,13 @@ form {
   margin-bottom: 3rem; }
 
 .main-nosotros {
-  width: 100vw;
-  height: 720px;
+  width: 80%;
+  height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   gap: 1rem;
-  width: 80%;
   margin: 0 auto;
-  height: 70vh;
   padding-bottom: 3rem;
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
@@ -369,14 +367,20 @@ form {
     font-weight: 400;
     font-style: italic;
     margin-top: 0.3rem; }
+  .fichas__titulo {
+    font-size: 2rem;
+    margin-top: 1rem; }
+  .fichas__subtitulo {
+    font-size: 1.5rem;
+    margin-top: 1rem; }
 
 @media only screen and (max-width: 1500px) {
   .fichas__titulo {
     font-size: 1.5rem;
-    margin-top: 0.3rem; }
+    margin-top: 1rem; }
   .fichas__subtitulo {
     font-size: 1.2rem;
-    margin-top: 0.3rem; } }
+    margin-top: 1rem; } }
 
 @media only screen and (max-width: 1300px) {
   .main-nosotros {
@@ -410,7 +414,8 @@ form {
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
   animation-duration: 1.5s;
-  animation-fill-mode: both; }
+  animation-fill-mode: both;
+  cursor: pointer; }
   .main-Servicios h2 {
     font-size: 2rem; }
 
@@ -433,7 +438,8 @@ form {
   opacity: 1;
   padding: 1rem;
   -webkit-transition: transform 0.4s cubic-bezier(0.44, 0.51, 0.24, 0.99);
-  transition: transform 0.4s cubic-bezier(0.44, 0.51, 0.24, 0.99); }
+  transition: transform 0.4s cubic-bezier(0.44, 0.51, 0.24, 0.99);
+  cursor: pointer; }
 
 #servUno:hover .servMouseOver, #servDos:hover .servMouseOver, #servTres:hover .servMouseOver, #servCuatro:hover .servMouseOver, #servCinco:hover .servMouseOver {
   opacity: 1;

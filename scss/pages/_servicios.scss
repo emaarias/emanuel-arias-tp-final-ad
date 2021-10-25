@@ -11,6 +11,7 @@
   animation-name: ingresoSuperior;
   animation-duration: 1.5s;
   animation-fill-mode: both ;  
+  cursor: pointer;
     h2{
       font-size: 2rem;
     }
@@ -38,6 +39,7 @@
   padding: 1rem;
 -webkit-transition: transform .4s cubic-bezier(.44, .51, .24, .99);
   transition: transform .4s cubic-bezier(.44, .51, .24, .99);
+  cursor: pointer;
  }
 
 #servUno,#servDos,#servTres,#servCuatro,#servCinco{
