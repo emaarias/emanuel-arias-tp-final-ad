@@ -406,6 +406,7 @@ form {
   margin: 0 auto;
   height: auto;
   padding-bottom: 3rem;
+  min-width: 100px;
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
   animation-duration: 1.5s;
@@ -477,7 +478,9 @@ form {
   #servUno:hover .servMouseOver, #servDos:hover .servMouseOver, #servTres:hover .servMouseOver, #servCuatro:hover .servMouseOver, #servCinco:hover .servMouseOver {
     opacity: 1;
     -webkit-transform: translateY(-310px) scale(1);
-    transform: translateY(-310px) scale(1); } }
+    transform: translateY(-310px) scale(1); }
+  .main-Servicios {
+    width: calc(100%-20%); } }
 
 @media only screen and (max-width: 1300px) {
   .main-Servicios {

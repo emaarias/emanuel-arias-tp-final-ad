@@ -6,6 +6,7 @@
   margin: 0 auto;
   height: auto;
   padding-bottom: 3rem;
+  min-width: 100px;
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
   animation-duration: 1.5s;
@@ -110,6 +111,10 @@
             transform: translateY(-310px) scale(1);
           }
         }
+  }
+
+  .main-Servicios{
+    width: calc(100%-20%);
   }
 
 }
