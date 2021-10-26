@@ -68,3 +68,25 @@
           }
         }
     }
+
+
+    
+    @media only screen and (max-width: 500px){
+      .menu{
+      height: max-content;
+      max-height: 400px;
+      text-align: center;
+      }
+
+      .menu--barras{
+        display: none;
+      }
+      
+      .menu__navegador{
+        height: auto;
+      }
+      .menu__secciones{
+        flex-direction: column;
+        
+      }
+    }

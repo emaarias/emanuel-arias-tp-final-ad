@@ -134,6 +134,18 @@ nav li:hover {
     .menu__logo {
       text-align: center; } }
 
+@media only screen and (max-width: 500px) {
+  .menu {
+    height: max-content;
+    max-height: 400px;
+    text-align: center; }
+  .menu--barras {
+    display: none; }
+  .menu__navegador {
+    height: auto; }
+  .menu__secciones {
+    flex-direction: column; } }
+
 .pie {
   font-size: 1rem;
   font-style: italic;
@@ -193,7 +205,7 @@ nav li:hover {
   animation-fill-mode: both; }
 
 #imagenHome {
-  width: 112%;
+  width: 100%;
   height: auto; }
 
 @-webkit-keyframes ingresoDerecha {
@@ -240,16 +252,7 @@ nav li:hover {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
 
-@media only screen and (max-width: 1500px) {
-  .sectionUno {
-    grid-column: 1 / 3; }
-  .sectionDos {
-    grid-column: 3/  4; }
-  #imagenHome {
-    width: 180%;
-    height: auto; } }
-
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1560px) {
   main {
     height: max-content;
     width: 60%;

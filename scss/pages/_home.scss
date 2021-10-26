@@ -36,7 +36,7 @@ animation-fill-mode: both ;
 }
 
 #imagenHome{
-    width: 112%;
+    width: 100%;
     height: auto;
 } 
   
@@ -100,21 +100,8 @@ animation-fill-mode: both ;
   }
 }
 
-@media only screen and (max-width: 1500px){
-.sectionUno{
- grid-column: 1 / 3;
-}
-.sectionDos{
-grid-column: 3/  4;
-}
-#imagenHome{
- width: 180%;
- height: auto;
-}
-}
 
-
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1560px){
 
 
 main{
