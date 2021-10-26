@@ -5,18 +5,19 @@
   width: 80%;
   margin: 0 auto;
   height: auto;
-  padding-bottom: 3rem;
   min-width: 100px;
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
   animation-duration: 1.5s;
   animation-fill-mode: both ;  
   cursor: pointer;
+  margin-bottom: 2rem;
     h2{
       font-size: 2rem;
     }
   }
  
+
 .cincoSection{
     display: inline-block;
     width: 100%;

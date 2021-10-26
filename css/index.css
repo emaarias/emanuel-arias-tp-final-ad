@@ -137,7 +137,7 @@ nav li:hover {
 .pie {
   font-size: 1rem;
   font-style: italic;
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   height: max-content;
   width: 80%;
@@ -164,7 +164,7 @@ nav li:hover {
     font-size: 0.8rem; } }
 
 /* PAGES */
-main {
+.main-home {
   width: 100vw;
   height: 720px;
   display: grid;
@@ -172,8 +172,7 @@ main {
   gap: 1rem;
   width: 80%;
   margin: 0 auto;
-  height: 70vh;
-  padding-bottom: 3rem; }
+  height: auto; }
 
 .sectionUno {
   grid-column: 1 / 2;
@@ -326,7 +325,7 @@ form {
   grid-template-rows: 1fr;
   gap: 1rem;
   margin: 0 auto;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
   animation-duration: 1.5s;
@@ -409,13 +408,13 @@ form {
   width: 80%;
   margin: 0 auto;
   height: auto;
-  padding-bottom: 3rem;
   min-width: 100px;
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
   animation-duration: 1.5s;
   animation-fill-mode: both;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-bottom: 2rem; }
   .main-Servicios h2 {
     font-size: 2rem; }
 
@@ -500,18 +499,17 @@ form {
 
 .main-trabajos {
   width: 100vw;
-  height: 720px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0;
   width: 80%;
   margin: 0 auto;
-  height: 70vh;
-  padding-bottom: 3rem;
+  height: auto;
   -webkit-animation-name: ingresoSuperior;
   animation-name: ingresoSuperior;
   animation-duration: 1.5s;
-  animation-fill-mode: both; }
+  animation-fill-mode: both;
+  margin-bottom: 2.5rem; }
 
 .trabajos-uno {
   width: 100%;
@@ -524,6 +522,8 @@ form {
 
 .trabajos-dos {
   width: 100%; }
+  .trabajos-dos__galeria {
+    cursor: pointer; }
 
 .descripcion__separacion {
   width: 100%;
@@ -554,7 +554,8 @@ form {
   display: grid;
   grid-column: 1 / 4;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  display: none; }
 
 @media only screen and (max-width: 1300px) {
   .main-trabajos {
